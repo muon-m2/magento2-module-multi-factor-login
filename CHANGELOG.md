@@ -7,9 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-04-07
+## [1.1.0] - 2026-11-13
 
-## [1.0.0] - 2026-03-31
+### Changed
+
+- The PHP constraint is pinned to the tested range, 8.3 to 8.5 (`~8.3.0 || ~8.4.0 || ~8.5.0`),
+  instead of the open `~8.3`. Tested on PHP 8.5 with Magento 2.4.9. No code changes.
+- The changelog had two `[1.0.0]` headings; they are merged into one, dated at the `v1.0.0` tag.
+
+## [1.0.0] - 2026-04-07
 
 ### Added
 - Two-factor authentication for Magento 2 customer login
